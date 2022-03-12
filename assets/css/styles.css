@@ -592,6 +592,7 @@ img {
   width: 265px;
   border-radius: 0.5rem;
   justify-self: center;
+  box-shadow: 0 -1px 4px rgba(0,0,0,0.15);
 }
 
 .portfolio__title{
@@ -915,6 +916,7 @@ img {
 
     .about__img{
       width: 350px;
+      resize: contain;
     }
 
     .about__description{
