@@ -284,10 +284,6 @@ img {
   fill: var(--first-color); 
 }
 
-.home__blob-img{
-  width: 170px;
-}
-
 .home__data{
   grid-column: 1/3;
 }
@@ -333,6 +329,21 @@ img {
 
 .home__scroll-arrow{
   font-size: 1.25rem;
+}
+
+.home__img{
+  width: 270px;
+  height: 300px;
+  border: 1px solid var(--first-color);
+  border-radius: 0.5rem;
+  border-width: 7px;
+}
+
+.home__blob-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 /*==================== BUTTONS ====================*/
 .button{
@@ -397,7 +408,7 @@ img {
 
 .about__buttons{
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 /*==================== SKILLS ====================*/
 
@@ -801,6 +812,11 @@ img {
     width: 180px;
   }
 
+  .home__img{
+    width: 200px;
+    height: 230px;
+  }
+
   .skills__title{
     font-size: var(--normal-font-size);
   }
@@ -822,6 +838,13 @@ img {
   }    
 }
 
+@media (min-width:351px) and (max-width:567px) {
+  .home__img{
+    width: 220px;
+    height: 250px;
+  }
+}
+
 /* For medium devices */
 @media screen and (min-width: 568px) {
   .home__content{
@@ -833,8 +856,8 @@ img {
   }
 
   .home__img{
-    order: 1;
-    justify-self: center;
+    width: 220px;
+    height: 250px;
   }
 
   .about__container, .portfolio__content, .contact__container, .footer__container{
@@ -949,7 +972,7 @@ img {
     }
 
     .about__buttons{
-      justify-content: initial;
+      justify-content: space-evenly;
     }
 
     .qualification__tabs{
@@ -1009,6 +1032,11 @@ img {
 
   .home__blob{
     width: 320px;
+  }
+
+  .home__img{
+    width: 270px;
+    height: 300px;
   }
 
   .home__social{
