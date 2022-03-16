@@ -1064,6 +1064,10 @@ img {
 /* For large devices */
 @media screen and (min-width:1024px) {
 
+  body {
+    margin: 0;
+  }
+
   .header,
   .main,
   .footer__container {
