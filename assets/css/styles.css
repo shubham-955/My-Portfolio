@@ -115,7 +115,7 @@ img {
 
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section {
-  padding: 2rem 0 1rem;
+  padding: 3rem 0 1rem;
 }
 
 .section__title {
@@ -682,6 +682,14 @@ img {
   row-gap: 3rem;
 }
 
+.contact_section {
+  padding: 1rem 0 1rem;
+}
+
+.skills_section {
+  padding: 1rem 0 1rem;
+}
+
 .contact__information {
   display: flex;
   margin-bottom: var(--mb-2);
@@ -858,6 +866,7 @@ img {
   .portfolio__button__grp {
     padding-right: 0rem;
   }
+
 }
 
 @media (min-width:351px) and (max-width:567px) {
@@ -920,11 +929,19 @@ img {
     margin-right: auto;
   }
 
-  .body {
+  body {
     margin: 0;
   }
 
   .section {
+    padding: 6rem 0 2rem;
+  }
+
+  .contact_section {
+    padding: 7rem 0 2rem;
+  }
+
+  .skills_section {
     padding: 6rem 0 2rem;
   }
 
